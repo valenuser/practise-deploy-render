@@ -4,7 +4,7 @@ require('dotenv').config()
 const app =  express()
 
 app.get('/',(req,res)=>{
-    res.send(`${process.env.PORT}\n${process.env.MYSQL_USER}`)
+    res.send(`${process.env.PORT}\n${process.env.MYSQL_USER} MODIFICADO`)
 })
 
 
